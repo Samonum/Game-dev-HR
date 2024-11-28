@@ -47,14 +47,18 @@ At the end of this course students will be able to:
 [todo: to be completed]
 
 ### Week 1: Introduction to Game Development
-- **Workshop Topics:** Game development fundamentals, genres, and tools.
-- **Activities:** Installing game engines, setting up Git.
+- **Workshop 1 Topics:** Introduction to games (why games, what types of games are there), Project 1
+- **Activities:** Installing Monogame, setting up Git 
+- **Workshop 2 Topics:** Monogame Game development fundamentals 
+- **Activities:** Game loop, drawing text and sprites, simple movement
 
-### Week 2: Concept and Prototyping
-- **Workshop Topics:** Ideation, storyboarding, and rapid prototyping.
-- **Activities:** Creating a Game Design Document (GDD), initial prototype.
-
-### Week 3: Core Mechanics and Scripting
+### Week 2: Basics of interaction and movement
+- **Workshop 1 Topics:** Handling input in Monogame
+- **Activities:** Reading out Input, Handling key down events, checking if a player clicks on something, check if a point is in a rectangle
+- **Workshop 2 Topics:** more movement
+- **Activities:** Simple physics, normals, Collision between circles and arbitrary lines, reflections, random point on a circle
+-----
+### Week 3: Handling multiple objects
 - **Workshop Topics:** Basic scripting for player movement, game mechanics.
 - **Activities:** Implementing and testing core mechanics.
 
@@ -71,10 +75,10 @@ At the end of this course students will be able to:
 - **Activities:** 
 
 ### Week 7: ??
-- **Workshop Topics:** 
-- **Activities:** 
+- **Workshop Topics:** Start of Project 3, Making a design document
+- **Activities:** Creating a Game Design Document (GDD), initial prototype.
 
-### Week 8: Testing and Feedback
+### Week 8: -Testing and Feedback-
 - **Workshop Topics:** 
 - **Activities:** Peer playtesting, iterative refinement.
 
@@ -129,7 +133,7 @@ At the end of this course students will be able to:
 
 ## Project Description
 
-### Project 1 Pong
+### Project 1 Pong (week 2/3)
 Focus on: first practice with system, how to draw objects, how does movement work, simple collision, does it work functionally.
 Create a basic implementation of 4 player Pong using just the framework. 
 Requirements:
@@ -139,7 +143,7 @@ Requirements:
 - When the ball misses a paddle that player should lose 1 life.
 - The “AI”  should simply try to follow the ball.
 
-### Project 2 Platformer
+### Project 2 Platformer (week  4-6)
 Focus on: Modify an existing project, learn about working with larger (arbitrary) numbers of objects, some design patterns, grids, level loading, simple animations, moving viewports v.s. static HUD, etc.
 Students will be given a simplified version of the Monogame Platform2D sample and asked to make several extensions: https://github.com/MonoGame/MonoGame.Samples/tree/3.8.0/Platformer2D
 - Students should: Add a trap that shoots arrows
@@ -147,10 +151,10 @@ Students will be given a simplified version of the Monogame Platform2D sample an
 - Add functionality to load a new level upon level completion
 - Give the player lives and make them invincible for a short time upon taking damage
 - ?
-### Project 3 Free project
+### Project 3 Free project (Week 7-19)
 Focus on: more freedom in design, work creating a bigger project with a group. The game should be a top down game in which both the player and NPC characters can move around 
-- Students should write a short design document
-- Students should create an UML diagram to design a basic layout for their game code
+- Students should write a short design document (week 7)
+- Students should create an UML diagram to design a basic layout for their game code 
 - Use inheritance and encapsulation to create multiple variants of objects
 - Level editor
 - Loading/saving
