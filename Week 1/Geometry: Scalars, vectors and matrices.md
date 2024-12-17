@@ -10,9 +10,9 @@ A **vector** is a list of numbers. The `Vector2` class in monogame for example i
 
 [Insert image]
 
-To distinguish vectors from scalar values we willwrite them with an arrow above them like $\overset{ \rightarrow }{v}$. When revering to the individual coordinates of a vector we use subscript: $v_x$ and $v_y$.
+To distinguish vectors from scalar values we willwrite them with an arrow above them like $\overset{ \rightarrow }{v}$. When revering to the individual coordinates of a vector we use subscript: $v_x$ and $v_y$. Note how these are now scalar values, so they no longer have an arrow.
 
-It is in other literature also common to see vectors written in bold $\boldface{v}$.
+It is in other literature also common to see vectors written in bold $\mathbf{v}$.
 
 A **Matrix** is a table of data. A 3x3 matrix 
 
