@@ -1,4 +1,4 @@
-### Geometry: Scalars, vectors and matrices:
+# Geometry: Scalars, vectors and matrices:
 
 Geometry plays an important part of game development. We need to know where things are and how they relate to one another. Is the player on the ground? did a bullet hit its target, how does an object move? These and many more questions can only be answered with maths.
 
@@ -28,7 +28,7 @@ Matrices are denoted using capital letters like $M$.
 ## Tensor
 A **tensor** is a generalisation of matrices to 3, 4 or even more dimentions. We won't be using any tensors during the course.
 
-### Geometry
+# Geometry
 Geometry
 
 ## Length
