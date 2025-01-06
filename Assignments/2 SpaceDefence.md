@@ -15,7 +15,7 @@ The spaceship uses the following static methods from the `LinePieceCollider` cla
 2. `Vector2 GetDirection(Vector2 point1, Vector2 point2)`
 
 Add player movement:
-1. Allow the spaceship so move using **both** the WASD keys and the arrow keys.
+1. Allow the spaceship so move using **both** the WASD keys and the arrow keys. Make sure the player moves with the same speed when moving diagonally and when moving orthogonally (vertical or horizontal).
 2. Rotate the space ship in the direction it is moving.
 
 Add movement to the enemies:
