@@ -1,4 +1,4 @@
-# Space Defence
+# 2 Space Defence
 Finish the Space defence game.
 
 The Space Defence game is a game in which the player controls a space ship. In the game the player can shoot bullets at aliens theat are invading earth to defeat them. The player can get a temporary upgrade by shooting down a crate. Hitting the crate will turn the ship's cannon into a laser.
@@ -7,11 +7,22 @@ Use the Game found at `<TODO: add link>`. You may add extra methods, but do not 
 
 Finish the game by adding the following:
 
+### Functionality:
+Implement the following functionality:
+
+The spaceship uses the following static methods from the LinePieceCollider class to aim:
+1. `float GetAngle(Vector2 direction)`
+2. `Vector2 GetDirection(Vector2 point1, Vector2 point2)`
+
+Add player movement:
+1. Allow the spaceship so move using **both** the WASD keys and the arrow keys.
+2. Rotate the space ship in the direction it is moving.
+
+Add movement to the enemies:
+Make the enemies move back and forth between 2 points to make them harder to hit.
 
 
-
-
-###Collision:
+### Collision:
 In the Collision folder are several collider classes for different shapes. Rectangles, circles and line pieces, but the intersection logic is still missing. How to calculate intersection is described in `<TODO: Add link>` 
 The Circle collider describes a circle using a location, described by 2 floats for the X and Y coordinates respectively and a radius. Everything that is less than the Radius away from the circle is considered to be within the circle.
 In the `CircleCollider` class add:
