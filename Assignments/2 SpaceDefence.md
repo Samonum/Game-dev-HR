@@ -10,7 +10,7 @@ Finish the game by adding the following:
 ### Functionality:
 Implement the following functionality:
 
-The spaceship uses the following static methods from the LinePieceCollider class to aim:
+The spaceship uses the following static methods from the `LinePieceCollider` class to aim:
 1. `float GetAngle(Vector2 direction)`
 2. `Vector2 GetDirection(Vector2 point1, Vector2 point2)`
 
