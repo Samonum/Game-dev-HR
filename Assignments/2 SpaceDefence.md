@@ -19,7 +19,7 @@ Add player movement:
 2. Rotate the space ship in the direction it is moving.
 
 Add movement to the enemies:
-Make the enemies move back and forth between 2 points to make them harder to hit.
+1. For the Alien class, whenever it moves, pick a random point exactly 200px away from its spawn position. Make the alien move between this point and its spawn position.
 
 
 ### Collision:
