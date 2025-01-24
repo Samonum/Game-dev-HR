@@ -2,6 +2,16 @@
 # Explorartive Software Development: Game Development
 
 [todo: detailed course information, like course code, etcs, course owner, teachers, date, etc]
+## Introduction
+
+Games are among the most complex forms of software out there. They bring together all facets of software development, from UX and design to algorythms and optimisation. The game development track will aim to touch on all these topics, while focussing on the technology behind games. In doing so students will be given the opportunity to work on each of the core competencies for software developers. 
+
+The focus of the game development track is the development of real-time interactive software. The track is roughly divided into two parts. During the first few weeks students will work on developing the core technical skills necessary to develop real-time software through classes and assignments. In the second half students will be given the freedom to develop a game of their own, allowing them to apply and hone the skills they have learned so far. Furthermore they will be challanged to learn new skills as they inevitably run into problems during the development cycle.
+
+## Reletionship with other courses
+
+A good base in Object Oriented software development will be required, particularly in C#.
+
 
 ## Learning Objectives
 The following learning objectives are aligned with Bloom's Taxonomy and focus on developing competencies in Professional Skills, Analysis, Design, Implementation, Research (Exploration), and Advice:
