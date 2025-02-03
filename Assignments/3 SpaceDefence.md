@@ -1,4 +1,4 @@
-# 2 Space Defence
+# 3 Space Defence
 Finish the Space defence game.
 
 The Space Defence game is a game in which the player controls a space ship. In the game the player can shoot bullets at aliens theat are invading earth to defeat them. The player can get a temporary upgrade by shooting down a crate. Hitting the crate will turn the ship's cannon into a laser.
