@@ -3,7 +3,7 @@ Finish the Space defence game.
 
 The Space Defence game is a game in which the player controls a space ship. In the game the player can shoot bullets at aliens theat are invading earth to defeat them. The player can get a temporary upgrade by shooting down a crate. Hitting the crate will turn the ship's cannon into a laser. The player shoots by clicking where they want to aim at. (Aiming to be implemented)
 
-Use the Game found at `<TODO: add link>`. You may add extra methods, but do not change the signature (method name, parameters or return type) of the methods given in the template.
+Use the Game found at `<TODO: add link>`. You may add extra methods, but do not change the signature (method name, parameters or return type) of the methods given in the template. Wherever applicable make proper use of GameTime.
 
 Finish the game by adding the following:
 
@@ -15,7 +15,7 @@ The spaceship uses the following static methods from the `LinePieceCollider` cla
 2. `Vector2 GetDirection(Vector2 point1, Vector2 point2)` (.5p)
 
 Add player movement:
-1. In space, momentum is conserved. When the player presses one of the WASD keys, accelerate the ship in the matching direction.  Make sure the player accelerates with the same speed when moving diagonally and when moving orthogonally (vertical or horizontal) and properly use GameTime. (1p)
+1. In space, momentum is conserved. When the player presses one of the WASD keys, accelerate the ship in the matching direction.  Make sure the player accelerates with the same speed when moving diagonally and when moving orthogonally (vertical or horizontal). (1p)
 2. Rotate the space ship in the direction it last accelerated. (1p)
 3. Make the screen wrap. Whenever the ship hits the edge of the screen, teleport it to the other side of the screen. (1p)
 
