@@ -38,4 +38,4 @@ In the `LinePieceCollider` class add:
 ### Bonus:
 1. Create a collider that neatly follows the space ship as it rotates. Instead of losing when the aliens come within a certain distance, the player loses when the alien hits the collider. (1p)
 
-Grade: (total points)/10
+The grade for the assignment is equal to the total points (max 11 including bonus)
