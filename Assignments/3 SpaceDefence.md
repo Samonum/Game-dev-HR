@@ -32,7 +32,7 @@ In the `CircleCollider` class add:
 
 A LinePiece is described by two Vector2: Start and End. Everything that is on the line between Start and End is on the Line. 
 In the `LinePieceCollider` class add:
-1. Logic to calculate the intersection between a line piece and a circle in the `Intersects(CircleCollider other)` method. (Hint: you may use the `NearestPointOnLine` method) (1p)
+1. Logic to calculate the intersection between a line piece and a circle in the `Intersects(CircleCollider other)` method. (Hint: start by implementing the `NearestPointOnLine` method) (1p)
 2. Logic to calculate the intersection between a line piece and a rectangle in the `Intersects(RectangleCollider other)` method. (1p)
 
 ### Bonus:
